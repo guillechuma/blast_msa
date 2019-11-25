@@ -1,0 +1,1021 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_43157</BlastOutput_query-ID>
+  <BlastOutput_query-def>sp|O08498|BLAB1_ELIME Metallo-beta-lactamase type 2 OS=Elizabethkingia meningoseptica OX=238 GN=blaB1 PE=1 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>249</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_43157</Iteration_query-ID>
+  <Iteration_query-def>sp|O08498|BLAB1_ELIME Metallo-beta-lactamase type 2 OS=Elizabethkingia meningoseptica OX=238 GN=blaB1 PE=1 SV=1</Iteration_query-def>
+  <Iteration_query-len>249</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|O08498.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-1; Short=CHbetaL-1; AltName: Full=Class B carbapenemase BlaB-1; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>O08498</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.457</Hsp_bit-score>
+      <Hsp_score>1321</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q9RB01.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-2; Short=CHbetaL-2; AltName: Full=Class B carbapenemase BlaB-2; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9RB01</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.22</Hsp_bit-score>
+      <Hsp_score>1310</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MLKKIKISLILALGLTSLQAFGQENPDVKIDKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQRTLDLINEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>MLKKIKISLILALGLTSLQAFGQENPDVKI+KLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQ TLDLINEYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q9K303.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-3; Short=CHbetaL-3; AltName: Full=Class B carbapenemase BlaB-3; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9K303</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.523</Hsp_bit-score>
+      <Hsp_score>1303</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIINIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQTSIQHTLDLISEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVI+NIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQ SIQHTLDLI+EYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q9KJA9.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-5; Short=CHbetaL-5; AltName: Full=Class B carbapenemase BlaB-5; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9KJA9</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>1.43895e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MLKRLKGLLVLALGFTGLQVFGQQNPDIKIEKLKDNLYVYTTYNTFKGTKYAANAVYMVTDKGVVVIDSPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKLGAKTYSTKMTDSILAKENKPRAKYTFDNNKSFKVGNTEFQVYYPGKGHTADNVVVWFPKDKVLVGGCIVKSGDSKDLGYIGEAYVNDWTQSIHNIQQKFPDVQYVVAGHDDWKDQTSIQHTLDLISDYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>MLK++K  L+LALG T LQ FGQ+NPD+KIEKLKDNLYVYTTYNTF GTKYAANAVY+VTDKGVVVID PWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGK+GAKTYSTKMTDSILAKENKPRA+YTFDNNKSFKVG +EFQVYYPGKGHTADNVVVWFPK+KVLVGGCI+KS DSKDLGYIGEAYVNDWTQS+HNIQQKF   QYVVAGHDDWKDQ SIQHTLDLI++YQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q9KJA7.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-8; Short=CHbetaL-8; AltName: Full=Class B carbapenemase BlaB-8; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9KJA7</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.19094e-167</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MKGLKGLLVLALGFTGLQVFGQQNPDIKIEKLKDNLYVYTTYNTFKGTKYAANAVYMVTDKGVVVIDSPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKLGAKTYSTKMTDSILAKENKPRAKYTFDNNKSFKVGKTEFQVYYPGKGHTADNVVVWFPKDKVLVGGCIVKSGDSKDLGFIGEAYVNDWTQSIHNIQQKFPDVQYVVAGHDDWKDQTSIQHTLDLISEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>+K +K  L+LALG T LQ FGQ+NPD+KIEKLKDNLYVYTTYNTF GTKYAANAVY+VTDKGVVVID PWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGK+GAKTYSTKMTDSILAKENKPRA+YTFDNNKSFKVGK+EFQVYYPGKGHTADNVVVWFPK+KVLVGGCI+KS DSKDLG+IGEAYVNDWTQS+HNIQQKF   QYVVAGHDDWKDQ SIQHTLDLI+EYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q9KJB0.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-6; Short=CHbetaL-6; AltName: Full=Class B carbapenemase BlaB-6; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9KJB0</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>1.56667e-167</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MKRLKGLLVLALGFTGLQVFGQQNPDIKIEKLKDNLYVYTTYNTFKGTKYAANAVYMVTDKGVVVIDSPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKLGAKTYSTKMTDSILAKENKPRAKYTFDNNKSFKVGNTEFQVYYPGKGHTADNVVVWFPKDKVLVGGCIVKSGDSKDLGFIGEAYVNDWTQSIHNIQQKFPDVQYVVAGHDDWKDQTSIQHTLDLISEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>+K++K  L+LALG T LQ FGQ+NPD+KIEKLKDNLYVYTTYNTF GTKYAANAVY+VTDKGVVVID PWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGK+GAKTYSTKMTDSILAKENKPRA+YTFDNNKSFKVG +EFQVYYPGKGHTADNVVVWFPK+KVLVGGCI+KS DSKDLG+IGEAYVNDWTQS+HNIQQKF   QYVVAGHDDWKDQ SIQHTLDLI+EYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q9KJA8.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-7; Short=CHbetaL-7; AltName: Full=Class B carbapenemase BlaB-7; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9KJA8</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>2.17711e-167</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>LKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MKGLKGLLVLALGFTGLQVFGQQNPDIKIEKLKDNLYVYTTYNTFKGTKYAANAVYMVTDKGIVVIDSPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKLGAKTYSTKMTDSILAKENKPRAKYTFDNNKSFKVGKTEFQVYYPGKGHTADNVVVWFPKDKVLVGGCIVKSGDSKDLGFIGEAYVNDWTQSIHNIQQKFPDVQYVVAGHDDWKDQTSIQHTLDLISEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>+K +K  L+LALG T LQ FGQ+NPD+KIEKLKDNLYVYTTYNTF GTKYAANAVY+VTDKG+VVID PWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGK+GAKTYSTKMTDSILAKENKPRA+YTFDNNKSFKVGK+EFQVYYPGKGHTADNVVVWFPK+KVLVGGCI+KS DSKDLG+IGEAYVNDWTQS+HNIQQKF   QYVVAGHDDWKDQ SIQHTLDLI+EYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q9XBN7.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Carbapenem-hydrolyzing beta-lactamase BlaB-4; Short=CHbetaL-4; AltName: Full=Class B carbapenemase BlaB-4; AltName: Full=Metallo lactamase BlaB-3; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Elizabethkingia meningoseptica]</Hit_def>
+  <Hit_accession>Q9XBN7</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.759</Hsp_bit-score>
+      <Hsp_score>1179</Hsp_score>
+      <Hsp_evalue>5.87017e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MLKKIKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>MMKKMKWALVLALGLTGLNAFGQETPEVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTSKGVVVIDSPWGEEKFKNFTDEIYKRHGKKVIMNIATHSHDDRAGGLEYFKSLGAKTYSTKMTDSILAKDNKPRAQYTFDNNKSFKVGKDEFQVYYPGKGHTADHVVVWFPKDKVLVGGCIIKSGDSKDLGFLGEAYVNDWTQSVHNIQKKFPNVQYVVAGHDDWKDQTAIQHTLDLISEYQQKQKASN</Hsp_hseq>
+      <Hsp_midline>M+KK+K +L+LALGLT L AFGQE P+VKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVT KGVVVID PWGE+KFK+FTDEIYK+HGKKVIMNIATHSHDDRAGGLEYF  +GAKTYSTKMTDSILAK+NKPRAQYTFDNNKSFKVGK EFQVYYPGKGHTAD+VVVWFPK+KVLVGGCIIKS DSKDLG++GEAYVNDWTQSVHNIQ+KF   QYVVAGHDDWKDQ +IQHTLDLI+EYQQKQKASN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P04190.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase II; AltName: Full=Cephalosporinase; AltName: Full=Metallo-beta-lactamase type II; AltName: Full=Metallothioprotein beta-lactamase II; AltName: Full=Penicillinase; AltName: Full=Zinc-requiring beta-lactamase II; Flags: Precursor [Bacillus cereus]</Hit_def>
+  <Hit_accession>P04190</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>4.16341e-47</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>ENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQ</Hsp_qseq>
+      <Hsp_hseq>ETGTISISQLNKNVWVHTELGSFNGEAVPSNGLVLNTSKGLVLVDSSWDDKLTKELIEMVEKKFQKRVTDVIITHAHADRIGGIKTLKERGIKAHSTALTAELAKKNGYEEPLGDLQTVTNLKFGNMKVETFYPGKGHTEDNIVVWLPQYNILVGGCLVKSTSAKDLGNVADAYVNEWSTSIENVLKRYRNINAVVPGHGEVGDK</Hsp_hseq>
+      <Hsp_midline>E   + I +L  N++V+T   +FNG    +N + L T KG+V++D  W +   K   + + KK  K+V   I TH+H DR GG++   + G K +ST +T  +  K              + K G  + + +YPGKGHT DN+VVW P+  +LVGGC++KS  +KDLG + +AYVN+W+ S+ N+ +++     VV GH +  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|P14488.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase II; AltName: Full=Cephalosporinase; AltName: Full=Metallo-beta-lactamase type II; AltName: Full=Metallothioprotein beta-lactamase II; AltName: Full=Penicillinase; AltName: Full=Zinc-requiring beta-lactamase II; Flags: Precursor [Bacillus cereus]</Hit_def>
+  <Hit_accession>P14488</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>8.335e-47</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>ENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQ</Hsp_qseq>
+      <Hsp_hseq>ETGTISISQLNKNVWVHTELGYFSGEAVPSNGLVLNTSKGLVLVDSSWDDKLTKELIEMVEKKFKKRVTDVIITHAHADRIGGMKTLKERGIKAHSTALTAELAKKNGYEEPLGDLQSVTNLKFGNMKVETFYPGKGHTEDNIVVWLPQYQILAGGCLVKSASSKDLGNVADAYVNEWSTSIENVLKRYGNINLVVPGHGEVGDR</Hsp_hseq>
+      <Hsp_midline>E   + I +L  N++V+T    F+G    +N + L T KG+V++D  W +   K   + + KK  K+V   I TH+H DR GG++   + G K +ST +T  +  K           +  + K G  + + +YPGKGHT DN+VVW P+ ++L GGC++KSA SKDLG + +AYVN+W+ S+ N+ +++     VV GH +  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P10425.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase II; AltName: Full=Cephalosporinase; AltName: Full=Metallo-beta-lactamase type II; AltName: Full=Metallothioprotein beta-lactamase II; AltName: Full=Penicillinase; AltName: Full=Zinc-requiring beta-lactamase II; Flags: Precursor [Bacillus sp. 170]</Hit_def>
+  <Hit_accession>P10425</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>5.46158e-46</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>ENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQ</Hsp_qseq>
+      <Hsp_hseq>ETGTISISQLNKNVWVHTELGYFNGEAVPSNGLVLNTSKGLVLVDSSWDNKLTKELIEMVEKKFQKRVTDVIITHAHADRIGGITALKERGIKAHSTALTAELAKKSGYEEPLGDLQTVTNLKFGNTKVETFYPGKGHTEDNIVVWLPQYQILAGGCLVKSAEAKNLGNVADAYVNEWSTSIENMLKRYRNINLVVPGHGKVGDK</Hsp_hseq>
+      <Hsp_midline>E   + I +L  N++V+T    FNG    +N + L T KG+V++D  W     K   + + KK  K+V   I TH+H DR GG+    + G K +ST +T  +  K              + K G ++ + +YPGKGHT DN+VVW P+ ++L GGC++KSA++K+LG + +AYVN+W+ S+ N+ +++     VV GH    D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P52699.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=BLA-IMP; Short=IMP-1; AltName: Full=Beta-lactamase type II; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Serratia marcescens]</Hit_def>
+  <Hit_accession>P52699</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>4.95654e-38</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>KISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAA-NAVYLVTDKGVVVIDCPW-GEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDL----INEYQQKQKASN</Hsp_qseq>
+      <Hsp_hseq>KLSVFFIFLFCSIATAAESLPDLKIEKLDEGVYVHTSFEEVNGWGVVPKHGLVVLVNAEAYLIDTPFTAKDTEKLVT--WFVERGYKIKGSISSHFHSDSTGGIEWLNSRSIPTYASELTNELLKKDGKVQATNSFSGVNYWLV-KNKIEVFYPGPGHTPDNVVVWLPERKILFGGCFIKPY---GLGNLGDANIEAWPKSAKLLKSKYGKAKLVVPSHSEVGDASLLKLTLEQAVKGLNESKKPSKPSN</Hsp_hseq>
+      <Hsp_midline>K+S+       S+    +  PD+KIEKL + +YV+T++   NG      + + ++ +    +ID P+  +D  K  T   + + G K+  +I++H H D  GG+E+       TY++++T+ +L K+ K +A  +F     + V K++ +V+YPG GHT DNVVVW P+ K+L GGC IK      LG +G+A +  W +S   ++ K+  A+ VV  H +  D   ++ TL+     +NE ++  K SN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P25910.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase II; AltName: Full=Carbapenem and cephamycin resistance; Short=CCRA; AltName: Full=Cephalosporinase; AltName: Full=Imipenem-cefoxitin hydrolyzing enzyme; AltName: Full=Metallo-beta-lactamase type II; AltName: Full=Penicillinase; AltName: Full=Zinc-requiring beta-lactamase; Flags: Precursor [Bacteroides fragilis]</Hit_def>
+  <Hit_accession>P25910</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.30988e-36</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IKISLILALGLTSLQAFGQENPDVKIEKLKDNLYVYTTYNTFNG-TKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEY</Hsp_qseq>
+      <Hsp_hseq>ILISMLFPVAVMAQKSVKISD-DISITQLSDKVYTYVSLAEIEGWGMVPSNGMIVINNHQAALLDTPINDAQTEMLVNWVTDSLHAKVTTFIPNHWHGDCIGGLGYLQRKGVQSYANQMTIDLAKEKGLPVPEHGFTDSLTVSLDGMPLQCYYLGGGHATDNIVVWLPTENILFGGCMLKDNQATSIGNISDADVTAWPKTLDKVKAKFPSARYVVPGHGDYGGTELIEHTKQIVNQY</Hsp_hseq>
+      <Hsp_midline>I IS++  + + + ++    + D+ I +L D +Y Y +     G     +N + ++ +    ++D P  + + +   + +      KV   I  H H D  GGL Y  + G ++Y+ +MT  +  ++  P  ++ F ++ +  +     Q YY G GH  DN+VVW P E +L GGC++K   +  +G I +A V  W +++  ++ KF  A+YVV GH D+     I+HT  ++N+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|C7C422.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase type II; AltName: Full=Metallo-beta-lactamase NDM-1; AltName: Full=Metallo-beta-lactamase type II; AltName: Full=New Delhi metallo-beta-lactamase-1; Short=NDM-1; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>C7C422</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>2.02316e-25</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>QAFGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKG-VVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQY--TFDNNKSFKVGKSE----FQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQ</Hsp_qseq>
+      <Hsp_hseq>QRFG----DLVFRQLAPNVWQHTSYLDMPGFGAVASNGLIVRDGGRVLVVDTAWTDDQTAQILNWIKQEINLPVALAVVTHAHQDKMGGMDALHAAGIATYANALSNQLAPQEGMVAAQHSLTFAANGWVEPATAPNFGPLKVFYPGPGHTSDNITVGIDGTDIAFGGCLIKDSKAKSLGNLGDADTEHYAASARAFGAAFPKASMIVMSHSAPDSRAAITHTARMADKLR</Hsp_hseq>
+      <Hsp_midline>Q FG    D+   +L  N++ +T+Y    G    A+   +V D G V+V+D  W +D+     + I ++    V + + TH+H D+ GG++     G  TY+  +++ +  +E    AQ+  TF  N   +   +      +V+YPG GHT+DN+ V      +  GGC+IK + +K LG +G+A    +  S       F  A  +V  H     + +I HT  + ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|P26918.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase type 2; AltName: Full=B2 metallo-beta-lactamase; AltName: Full=Beta-lactamase II; AltName: Full=Carbapenem-hydrolyzing metallo-beta-lactamase; AltName: Full=Metallo-beta-lactamase type II; Flags: Precursor [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>P26918</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.81012e-18</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>NAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKE----------------NKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWKDQRSIQHTLDLINEYQQKQKAS</Hsp_qseq>
+      <Hsp_hseq>NSMVYFGAKGVTVVGATWTPDTARELHKLIKRVSRKPVLEVINTNYHTDRAGGNAYWKSIGAKVVSTRQTRDLMKSDWAEIVAFTRKGLPEYPDLPLVLPNVVHDGDFTLQEGKVRAFYAGPAHTPDGIFVYFPDEQVLYGNCILK----EKLGNLSFADVKAYPQTLERLKAMKLPIKTVIGGHD------SPLHGPELIDHYEALIKAA</Hsp_hseq>
+      <Hsp_midline>N++     KGV V+   W  D  +     I +   K V+  I T+ H DRAGG  Y+  IGAK  ST+ T  ++  +                + P       ++  F + + + + +Y G  HT D + V+FP E+VL G CI+K    + LG +  A V  + Q++  ++      + V+ GHD      S  H  +LI+ Y+   KA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|A0A096ZEC9.1|</Hit_id>
+  <Hit_def>RecName: Full=2,4-dinitroanisole O-demethylase subunit alpha; Short=DNAN hydrolase subunit alpha; Short=DNHA; Flags: Precursor [Nocardioides sp. JS1661]</Hit_def>
+  <Hit_accession>A0A096ZEC9</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>7.12221e-05</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIA-THSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENK----PRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVL</Hsp_qseq>
+      <Hsp_hseq>DTGVIAVDTFWSPGSARQYRRALQSHFPRKPVHTIIYTHDHLDHTGFGADFAPDADQILAHELTAEVIARRSSDGQLPATRTWSGERLEVSIDGAEFELIYPGPTHGTGNTALYFPNERFL</Hsp_hseq>
+      <Hsp_midline>D GV+ +D  W     + +   +     +K +  I  TH H D  G    F     +  + ++T  ++A+ +     P  +          +  +EF++ YPG  H   N  ++FP E+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|B0TXY0.1|</Hit_id>
+  <Hit_def>RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Francisella philomiragia subsp. philomiragia ATCC 25017]</Hit_def>
+  <Hit_accession>B0TXY0</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0574995</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>NAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDDWK</Hsp_qseq>
+      <Hsp_hseq>NYQYLLYDENYAIVIDPLKADIF----DEFIKQNTLKLEAILITHRHGDHIAGVKKLLEIYPDALVYAYADNELFKPNIYVADGDF-----VDFGFTSCKVMY-TPGHIDDHVCFLFEKEKALFCGDTLFNAGVGGV-HAASADVNQLYDSVVKISS-LDGDIKPYPAHDYWQ</Hsp_hseq>
+      <Hsp_midline>N  YL+ D+   ++  P   D F    DE  K++  K+   + TH H D   G++   +I          D+ L K N   A   F        G +  +V Y   GH  D+V   F KEK L  G  + +A    + +   A VN    SV  I     G       HD W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q95Q18.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase-like protein 2 homolog [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q95Q18</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.242472</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>IEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGED---KFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKS---FKVGKSEFQVYYPG--------KGHTADNVVVWFPKEKVLVGG-CII</Hsp_qseq>
+      <Hsp_hseq>IEKLSDAVTRILGHNPGPFTLQGTNTYLLGTGAKKILVDT--GEPNVTEYISALKSVLASTNSHIEYIVITHWHGDHVGGID------------NITDEILDKKKIPIYKMKRDKDEGVERFHYVDDGFEVAVDGATLKLIATPGHTADHFSLWLQEERALFSGDCIL</Hsp_hseq>
+      <Hsp_midline>IEKL D +     +N    T    N   L T    +++D   GE    ++ S    +       +   + TH H D  GG++             +TD IL K+  P  +   D ++    F      F+V   G         GHTAD+  +W  +E+ L  G CI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|B8ICA2.1|</Hit_id>
+  <Hit_def>RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Methylobacterium nodulans ORS 2060]</Hit_def>
+  <Hit_accession>B8ICA2</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.277524</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>YKKHGKKVIMNIATHSHDDRAGGL-EYFGKIGAK-TYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGG</Hsp_qseq>
+      <Hsp_hseq>LKETGWRLTDILVTHRHFDHVEGIPEVKARTGARVTAPAKAGDAV------PEVDATVREGDVVKVG-SLVGTVWETPGHCADHVTYWFERERLAFAG</Hsp_hseq>
+      <Hsp_midline> K+ G ++   + TH H D   G+ E   + GA+ T   K  D++      P    T       KVG S     +   GH AD+V  WF +E++   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|O59272.1|</Hit_id>
+  <Hit_def>RecName: Full=Damage-control phosphatase PH1575; AltName: Full=Nucleotides phosphatase PH1575 [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O59272</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.562916</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KKIKISLILALGLTSL-------QAFGQENPDVKIEK-LKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKI</Hsp_qseq>
+      <Hsp_hseq>RKLKLDFELAVKLAIIGNVIDFSVGFSPEDLEEEVEKMLKDKLYIDDSKELFEEVKRAENILYITDNVGEHYFDAILIEKIREISNAEVYIAGKEGPIINDAT-VEDLKRAGLEKLGKV</Hsp_hseq>
+      <Hsp_midline>+K+K+   LA+ L  +         F  E+ + ++EK LKD LY+  +   F   K A N +Y+  + G    D    E   +    E+Y    +  I+N AT   D +  GLE  GK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|Q4W945.1|</Hit_id>
+  <Hit_def>RecName: Full=Atrochrysone carboxyl ACP thioesterase; Short=ACTE; AltName: Full=Endocrocin synthesis protein B [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4W945</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.681953</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>NAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQ</Hsp_qseq>
+      <Hsp_hseq>NTYILGTGAERLLIDSGQGRARWEQLMASLAAEHKFRISTVLLTHWHLDHTGGVPHLFRIFPE---LRGANAIYKYHPDPSQQAIVDGQVFSVEGATVRAVFTP--GHSTDHMCFLLQEEEAIFTGDTVLGH-----GTTGVEDLEEYMQSLRKIQ</Hsp_hseq>
+      <Hsp_midline>N   L T    ++ID   G  +++     +  +H  ++   + TH H D  GG+ +  +I  +    +  ++I      P  Q   D       G +   V+ P  GH+ D++     +E+ +  G  +        G  G   + ++ QS+  IQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|B0UBD0.1|</Hit_id>
+  <Hit_def>RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Methylobacterium sp. 4-46]</Hit_def>
+  <Hit_accession>B0UBD0</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.26166</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>IATHSHDDRAGGL-EYFGKIGAK-TYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGG</Hsp_qseq>
+      <Hsp_hseq>LVTHRHFDHVEGTPEVKARTGARVTAPAKAGDAV------PEVDATVREGDAVRLG-SLVAAVWETPGHCADHVTYWFERERIAFAG</Hsp_hseq>
+      <Hsp_midline>+ TH H D   G  E   + GA+ T   K  D++      P    T     + ++G S     +   GH AD+V  WF +E++   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|Q81TR2.1|</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q81TR2</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.28232</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>FGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEI-YKKHGKKVIMNIATHSHDDRAGGL----EYFGK</Hsp_qseq>
+      <Hsp_hseq>LGTEIKDILIQKSKEGVVVRFLYDAVGSFKLSKSYIEELNDAGVEMI--PFFPVRFPILNDKINYRNHRKIVIID----GNEGFVGGLNIGDEYLGK</Hsp_hseq>
+      <Hsp_midline> G E  D+ I+K K+ + V   Y+     K + + +  + D GV +I  P+   +F    D+I Y+ H K VI++     ++   GGL    EY GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|Q81GK4.1|</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase 2; Short=CL synthase 2 [Bacillus cereus ATCC 14579]</Hit_def>
+  <Hit_accession>Q81GK4</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.2446</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>FGQENPDVKIEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEI-YKKHGKKVIMNIATHSHDDRAGGL----EYFGK</Hsp_qseq>
+      <Hsp_hseq>LGTEIKDILIQKSKEGVVVRFLYDAVGSFKLSKSYIEELNDAGVEMI--PFFPVRFPILNDKINYRNHRKIVVID----GNEGFVGGLNIGDEYLGK</Hsp_hseq>
+      <Hsp_midline> G E  D+ I+K K+ + V   Y+     K + + +  + D GV +I  P+   +F    D+I Y+ H K V+++     ++   GGL    EY GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|A2C116.1|</Hit_id>
+  <Hit_def>RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Prochlorococcus marinus str. NATL1A]</Hit_def>
+  <Hit_accession>A2C116</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.2705</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>IATHSHDDRAGGLEYFGKI--GAKTYSTKMTDSILAKENK--PRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVV-----------VWFPKEKVLVGGC</Hsp_qseq>
+      <Hsp_hseq>LQTHHHDDHIGGTQKLIKTWPEAKVVASK-------KEHKRIPFQTFSVDDNDIFNLMDAEIKVIE-VHGHTDNHIAFYISKQNAKCNILFPGDTLFGGGC</Hsp_hseq>
+      <Hsp_midline>+ TH HDD  GG +   K    AK  ++K       KE+K  P   ++ D+N  F +  +E +V     GHT +++            + FP + +  GGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|Q46GM1.2|</Hit_id>
+  <Hit_def>RecName: Full=Hydroxyacylglutathione hydrolase; AltName: Full=Glyoxalase II; Short=Glx II [Prochlorococcus marinus str. NATL2A]</Hit_def>
+  <Hit_accession>Q46GM1</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.33297</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>IATHSHDDRAGGLEYFGKI--GAKTYSTKMTDSILAKENK--PRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVV-----------VWFPKEKVLVGGC</Hsp_qseq>
+      <Hsp_hseq>LQTHHHDDHIGGTQKLIKTWPEAKVVASK-------KEHKRIPFQTFSVDDNDIFNLMDAEIKVIE-VHGHTDNHIAFYISKQNAKCNILFPGDTLFGGGC</Hsp_hseq>
+      <Hsp_midline>+ TH HDD  GG +   K    AK  ++K       KE+K  P   ++ D+N  F +  +E +V     GHT +++            + FP + +  GGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|P0CU68.1|</Hit_id>
+  <Hit_def>RecName: Full=Atrochrysone carboxyl ACP thioesterase; Short=ACTE; AltName: Full=Cladofulvin biosynthesis cluster protein F [Passalora fulva]</Hit_def>
+  <Hit_accession>P0CU68</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.54378</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ENPDVKIEKLKDNLYVYTTYN----TFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGGL</Hsp_qseq>
+      <Hsp_hseq>ELPDV--EQLTPRVLRILGQNPGKFTFQGT----NTYVIGTGRQRLIIDTGGGEADWASLINDTLKARGITIARVLLTHWHGDHTGGV</Hsp_hseq>
+      <Hsp_midline>E PDV  E+L   +      N    TF GT    N   + T +  ++ID   GE  + S  ++  K  G  +   + TH H D  GG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|O31717.1|</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YkpB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31717</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.19754</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>DNVVVWFPKEKVLVGGCIIKSA---------DSKDLGYIGEAYVNDWTQSVHNIQQKFSG--AQYVVAGH---DDWK</Hsp_qseq>
+      <Hsp_hseq>EQLFAAFSKEQVLGGLCFIESALDNKGEIHHTSASHRFVFGEWNGERTERIRALEEAFSGVKAEVIISGHIEKDIWK</Hsp_hseq>
+      <Hsp_midline>+ +   F KE+VL G C I+SA          S    ++   +  + T+ +  +++ FSG  A+ +++GH   D WK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|B1ZP06.1|</Hit_id>
+  <Hit_def>RecName: Full=Urease subunit alpha; AltName: Full=Urea amidohydrolase subunit alpha [Opitutus terrae PB90-1]</Hit_def>
+  <Hit_accession>B1ZP06</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.4118</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>371</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKF</Hsp_qseq>
+      <Hsp_hseq>LGAISIMSSDSQAMGRVGEVIIRTW-QTAHKMKQQF</Hsp_hseq>
+      <Hsp_midline>+G   I S+DS+ +G +GE  +  W Q+ H ++Q+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|Q9SID3.1|</Hit_id>
+  <Hit_def>RecName: Full=Hydroxyacylglutathione hydrolase 2, mitochondrial; AltName: Full=Glyoxalase II; Short=Glx II; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SID3</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.83658</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IEKLKDNLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDCPWGEDKFKSFTDEIYKKHGKKVIMNIATHSHDDRAGG-LEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGG</Hsp_qseq>
+      <Hsp_hseq>VPCLKDN-YAYILHDEDTGT--------------VGVVDPSEAEPIIDSL-----KRSGRNLTYILNTHHHYDHTGGNLELKDRYGAKVIGSAMD-----KDRIPGIDMALKDGDKWMFAGHEVHV-MDTPGHTKGHISLYFPGSRAIFTG</Hsp_hseq>
+      <Hsp_midline>+  LKDN Y Y  ++   GT              V V+D    E    S      K+ G+ +   + TH H D  GG LE   + GAK   + M      K+  P       +   +     E  V     GHT  ++ ++FP  + +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|Q59435.3|</Hit_id>
+  <Hit_def>RecName: Full=Deoxyguanosinetriphosphate triphosphohydrolase; Short=dGTP triphosphohydrolase; Short=dGTPase [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>Q59435</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.20279</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>PKEKVLVGGCIIKSADSKDLGYIGEAYVNDW-TQSVH</Hsp_qseq>
+      <Hsp_hseq>PFESIVEMSCLMHDIGNPPFGHLGEAAINDWFRQRLH</Hsp_hseq>
+      <Hsp_midline>P E ++   C++    +   G++GEA +NDW  Q +H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|Q5F336.1|</Hit_id>
+  <Hit_def>RecName: Full=Metallo-beta-lactamase domain-containing protein 2 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5F336</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.94429</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>GKKVIMNIATHSHDDRAGGLEYFGKIGAKTYS-------------TKMTDSILAKENKP------------RAQYTFDNNKSFKVGKSEFQVYYPGKGHTADNVVVWFPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQ</Hsp_qseq>
+      <Hsp_hseq>GPRPLLAVATHVHFDHSGGLQHFEEVAVHSAEAAALLRGDNYEAVTWLSDREVTRPPRPGWRARHFCVPPVRPSRLLQEGDVISLGDRQLTVMH-MPGHSRGSICLHDREHKILFSGDVVY--DGSMIDWLPYSNVSDYVVSCQRLME</Hsp_hseq>
+      <Hsp_midline>G + ++ +ATH H D +GGL++F ++   +               T ++D  + +  +P            R            +G  +  V +   GH+  ++ +   + K+L  G ++   D   + ++  + V+D+  S   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|A8GFJ2.1|</Hit_id>
+  <Hit_def>RecName: Full=Aspartate--tRNA ligase; AltName: Full=Aspartyl-tRNA synthetase; Short=AspRS [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GFJ2</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.12479</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>SLQAFGQENPDVKIE-KLKD--NLYVYTTYNTFNGTKYAANAVYLVTDKGVVVIDC-PWGEDKFKSFTDE------IYKKHGKKVIMNIATHSHDDRAGGLEYFGKIGAKTYSTKMTDSILAKENKPRAQYTFDNNKSFKV</Hsp_qseq>
+      <Hsp_hseq>AMRRYGSDKPDLRNPLELVDVADLVKDVEFKVFSGPANDA--------KGRVAAICVPGGAQLTRKLIDEYGAFVNIYGAKG------LAWLKVNDRAAGMEGVQSPIAKFLSAEVLEAILARTNAQSGDILFFGADSFKI</Hsp_hseq>
+      <Hsp_midline>+++ +G + PD++   +L D  +L     +  F+G    A        KG V   C P G    +   DE      IY   G      +A    +DRA G+E      AK  S ++ ++ILA+ N       F    SFK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|Q9LV03.2|</Hit_id>
+  <Hit_def>RecName: Full=Glutamate synthase 1 [NADH], chloroplastic; AltName: Full=NADH-dependent glutamate synthase 1; Short=NADH-GOGAT 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LV03</Hit_accession>
+  <Hit_len>2208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.07239</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1462</Hsp_hit-from>
+      <Hsp_hit-to>1529</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>YPGKGHTADNVVVW-------FPKEKVLVGGCIIKSADSKDLGYIGEAYVNDWTQSVHNIQQKFSGAQYVVAGHDD</Hsp_qseq>
+      <Hsp_hseq>YVGKGLSGGKVVVYPPKGSSFDPKENIVIGNVALYGATS------GEAYFNGMAAERFSVRN--SGAKAVVEGLGD</Hsp_hseq>
+      <Hsp_midline>Y GKG +   VVV+        PKE +++G   +  A S      GEAY N       +++   SGA+ VV G  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|Q57T47.1|</Hit_id>
+  <Hit_def>RecName: Full=Deoxyguanosinetriphosphate triphosphohydrolase; Short=dGTP triphosphohydrolase; Short=dGTPase [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q57T47</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.76409</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>PKEKVLVGGCIIKSADSKDLGYIGEAYVNDW-TQSVH</Hsp_qseq>
+      <Hsp_hseq>PFESIVEMACLMHDIGNPPFGHFGEAAINDWFRQRLH</Hsp_hseq>
+      <Hsp_midline>P E ++   C++    +   G+ GEA +NDW  Q +H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>473341</Statistics_db-num>
+      <Statistics_db-len>178865978</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
